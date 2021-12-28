@@ -97,8 +97,8 @@ def redirect():
         
         address_info = address.get()
         email_body_info = t.get(1.0,"end-1c")
-        sender_email = "manrajd2152@gmail.com" 
-        sender_password = "9876556789"
+        sender_email = "enter your mail id" 
+        sender_password = "your password"
         server = smtplib.SMTP('smtp.gmail.com',587)
         server.starttls()
         server.login(sender_email,sender_password)
